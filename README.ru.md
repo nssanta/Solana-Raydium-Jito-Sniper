@@ -38,8 +38,8 @@
 1. **Клонируйте репозиторий:**
 
 ```bash
-git clone https://github.com/your-username/solana-sniper-v1.git
-cd solana-sniper-v1
+git clone https://github.com/nssanta/Solana-Raydium-Jito-Sniper.git
+cd Solana-Raydium-Jito-Sniper
 ```
 
 2. **Установите зависимости:**
@@ -72,10 +72,10 @@ python main_async.py
 
 Проект структурирован для модульности и скорости:
 
-*   **`Scanner/`** - Отвечает за WebSocket соединения и парсинг логов программы для поиска новых пулов.
-*   **`SWAP/`** - Содержит логику создания инструкций обмена (Buy/Sell) для Raydium.
-*   **`Jito/`** - Интерфейс для отправки пакетов транзакций в Jito Block Engine.
-*   **`Data/`** - Управление конфигурацией и константами.
+- **`Scanner/`** - Отвечает за WebSocket соединения и парсинг логов программы для поиска новых пулов.
+- **`SWAP/`** - Содержит логику создания инструкций обмена (Buy/Sell) для Raydium.
+- **`Jito/`** - Интерфейс для отправки пакетов транзакций в Jito Block Engine.
+- **`Data/`** - Управление конфигурацией и константами.
 
 ---
 
@@ -85,4 +85,4 @@ python main_async.py
 
 ---
 
-*Refactored 2024*
+Сделано с ❤️ для сообщества DeFi

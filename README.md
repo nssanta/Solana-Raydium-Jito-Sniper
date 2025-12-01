@@ -38,7 +38,7 @@ This project demonstrates a production-ready architecture for real-time blockcha
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/solana-sniper-v1.git
+git clone https://github.com/nssanta/solana-sniper-v1.git
 cd solana-sniper-v1
 ```
 
@@ -72,10 +72,10 @@ python main_async.py
 
 The project is structured for modularity and speed:
 
-*   **`Scanner/`** - Handles WebSocket connections and parses program logs to find new pools.
-*   **`SWAP/`** - Contains logic for building Swap instructions (Buy/Sell) on Raydium.
-*   **`Jito/`** - Interface for sending transaction bundles to the Jito Block Engine.
-*   **`Data/`** - Configuration and constant management.
+- **`Scanner/`** - Handles WebSocket connections and parses program logs to find new pools.
+- **`SWAP/`** - Contains logic for building Swap instructions (Buy/Sell) on Raydium.
+- **`Jito/`** - Interface for sending transaction bundles to the Jito Block Engine.
+- **`Data/`** - Configuration and constant management.
 
 ---
 
@@ -85,4 +85,4 @@ This software is for educational purposes only. Cryptocurrency trading involves 
 
 ---
 
-*Refactored 2024*
+Made with ❤️ for the DeFi community
